@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Encabezado */
+header {
+  background-color: #0078d7;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Sección principal */
+main {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navegación de letras */
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: #0078d7;
+  color: white;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #005a9e;
+}
+
+/* Párrafos del glosario */
+p {
+  background-color: #e3e3e3;
+  padding: 10px;
+  border-left: 5px solid #0078d7;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+p strong {
+  font-size: 18px;
+  color: #0078d7;
+}
+
+/* Enlace al glosario 2 */
+a[href="glosario2.html"] {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #0078d7;
+  text-decoration: none;
+}
+
+a[href="glosario2.html"]:hover {
+  color: #005a9e;
+}
